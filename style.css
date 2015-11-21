@@ -1,0 +1,58 @@
+.slider-container {
+	position: relative;
+	width: 60%;
+	margin: 0 auto;
+	height: 320px;
+}
+#slider {
+	width: 576px;
+	height: 320px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.slides {
+	display: block;
+	width: 3456px;
+	height: 320px;
+	margin: 0 0 0 -576px;
+	padding: 0;
+}
+.slide {
+	float: left;
+	list-style: none;
+	width: 576px;
+	height: 320px;
+}
+h1 {
+	color: white;
+	text-align: center;
+}
+.black {
+	width: 576px;
+	background: black;
+}
+.blue {
+	width: 576px;
+	background: blue;
+}
+.fa-arrow-circle-o-right {
+  right: 5%;
+  bottom: 50%;
+  position: absolute;
+  color: gray;
+}
+.fa-arrow-circle-o-right:hover,
+.fa-arrow-circle-o-left:hover
+ {
+	font-weight: bold;
+}
+.fa-arrow-circle-o-left {
+  left: 5%;
+  bottom: 50%;
+  position: absolute;
+  color: gray;
+}
+footer {
+	background: black;
+	color: white;
+}
