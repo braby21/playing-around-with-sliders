@@ -2,7 +2,7 @@ $(function() {
 
 	var width = 576;
 	var animationSpeed = 2000;
-	var pause = 3000;
+	var pause = 5000;
 	var currentSlide = 2;
 
 	//cache DOM
